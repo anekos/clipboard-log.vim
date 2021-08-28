@@ -1,0 +1,43 @@
+*clilog.txt*	Log clipboard changes to the buffer
+
+Version: 0.1.0
+Author : anekos <vim@snca.net>
+
+==============================================================================
+CONTENTS						*clilog-contents*
+
+INTERFACE		|clilog-interface|
+  COMMANDS			  |clilog-commands|
+CHANGE LOG			|clilog-changelog|
+
+
+==============================================================================
+INTERFACE				*clilog-interface*
+
+------------------------------------------------------------------------------
+COMMANDS					*clilog-commands*
+
+:Clilog		*:Clilog*
+	Toggle the enable/disable.
+
+------------------------------------------------------------------------------
+OPTIONS						*clilog-options*
+
+g:clilog_watch_interval				*g:clilog_watch_interval*
+	Watch interval in milliseconds.
+	Default: >
+	200
+g:clilog_register				*g:tclilog_register*
+	Register name to be watched
+	Default:
+	'*'
+
+==============================================================================
+CHANGE LOG					*clilog-changelog*
+
+0.1.0	2021-08-28
+	- The first
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
